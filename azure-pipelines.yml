@@ -136,4 +136,3 @@ stages:
                   git checkout $(Build.SourceBranchName)
                   git remote add heroku https://heroku:$(api_key)@git.heroku.com/$(heroku_app).git
                   git push heroku $(Build.SourceBranchName)
-        
