@@ -16,7 +16,7 @@ class OperacionesMatematicasServiceTest {
 		//Arrange
 		Integer n1=2;
 		Integer n2=4;
-		Integer resultado=0;
+		Integer resultado=10;
 		
 		//Act
 		resultado=operacionesMatematicasService.sumar(n1, n2);
